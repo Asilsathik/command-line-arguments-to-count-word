@@ -18,6 +18,7 @@ use len() to find the total word
 ### Step 6: 
 run the program to determine the number of word in a file created
 ## PROGRAM:
+```
 import sys
 count = {}
 with open(sys.argv[1], 'r') as f:
@@ -29,6 +30,7 @@ with open(sys.argv[1], 'r') as f:
                 count[word] +=1
 print(count)
 f.close()
+```
 ### OUTPUT:
 ![output](output.jpeg)
 
